@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top mb-4">
+
+  <a class="navbar-brand" href="" routerLink="/">
+    <fa-icon [icon]="['fas', 'question']"></fa-icon>
+  </a>
+
+  <button 
+    class="navbar-toggler" 
+    type="button" 
+    data-toggle="collapse" 
+    data-target="#navbar-header"
+    aria-controls="navbar-header" 
+    aria-expanded="false" 
+    aria-label="Toggle navigation"
+  >
+    <fa-icon [icon]="['fas', 'bars']"></fa-icon>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-header">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="" routerLink="/quiz"><b>Quiz App by Kelompok 4</b></a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+        <li *ngIf="isLoggedIn" class="nav-item">
+          <a class="nav-link" href="" routerLink="/logout">Logout</a>
+        </li>
+    </ul>
+  </div>
+
+</nav>
+
+<div class="mt-5" style="height: 20px"></div>
+
+
+
