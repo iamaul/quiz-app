@@ -1,7 +1,5 @@
 ## User Login
-To access quiz app, you need to login with the following credentials:
-Username: admin
-Password: admin123
+To access quiz app, you need to login with the following credentials:                                                             Username: admin                                                                                                                           Password: admin123
 
 # ProjectUasKelompok4
 
