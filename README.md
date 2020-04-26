@@ -1,9 +1,10 @@
 ## User Login
-To access quiz app, you need to login with the following credentials:                                                             Username: admin                                                                                                                           Password: admin123
+To access quiz app, you need to login with the following credentials:                                                                     Username: admin                                                                                                                         Password: admin123
 
-# ProjectUasKelompok4
+# Project Uas Kelompok 4
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Original source: https://github.com/softgandhi/ngQuiz
 
 ## Development server
 
